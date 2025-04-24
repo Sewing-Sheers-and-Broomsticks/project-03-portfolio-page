@@ -1,0 +1,54 @@
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(48, 0, 95);
+    text-align:center;
+    text-justify: center;
+    font-size: 300px;
+}
+
+body{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color:rgb(48, 0, 95);
+   text-align:center;
+   text-justify: center;
+  
+   background-image: url(images/background.png) ;  
+   background-position: center;
+   background-size: cover;
+   max-width: 100%;
+   max-height: 300;
+   background-repeat:no-repeat;
+   background-color:rgb(167,150,207)
+}
+ ul{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(124, 94, 153);
+    text-align:center;
+    text-justify:center;
+    font-size:40px;
+    font-weight: bold;
+ }
+a:hover{
+    color:black;
+    background-color:white;
+}
+ .bio{
+    margin-top:100px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    background-color:rgb(167, 150, 207);
+    color:(48,0, 95);
+    margin-left: 100px;
+    margin-right: 50px;
+    text-align:left;
+ }
+
+ h2{
+    margin-top:1000x;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(48, 0, 95);
+    text-align:center;
+    text-justify: center;
+    font-size: 100px;
+ }
+

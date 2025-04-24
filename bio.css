@@ -1,0 +1,40 @@
+html{background-color:rgb(187, 152, 233)}
+
+.bio{
+    margin-top:100px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    background-color:violet;
+    color:rgb(48,0,95);
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align:left;
+    font-size:50px;
+    margin-bottom:100px;
+ }
+
+ h2{
+    margin-top:1000x;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(48, 0, 95);
+    text-align:center;
+    text-justify: center;
+    font-size: 200px;
+  
+ }
+
+ img{
+    max-width:600px;
+    max-height:1600px;
+    object-position: center;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    margin:auto;
+    padding: 25px;
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
