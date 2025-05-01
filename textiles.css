@@ -1,0 +1,44 @@
+html{background-color:rgb(187, 152, 233);}
+
+img{
+    margin:25px;
+    max-width:1000px;
+    max-height: fit-content;
+    object-position: center;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    margin:auto;
+    padding: 25px;
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+ .dress{
+
+        margin:100px;
+        max-width:1000px;
+        max-height:fit-content;
+        object-position: center;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        width: 100%;
+        justify-content:center;
+        align-items: center;
+        margin:auto;
+        padding: 25px;
+        gap: 25px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        @media (600px <= width) {
+            flex-wrap: nowrap;
+        }
+ 
+    }
+   

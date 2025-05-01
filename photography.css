@@ -16,4 +16,9 @@ gap: 25px;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+
+@media (600px <= width) {
+    flex-wrap: nowrap;
+}
+
 }
