@@ -4,7 +4,7 @@ h1{
     color:rgb(48, 0, 95);
     text-align:center;
     text-justify: center;
-    font-size:clamp(6.25rem, .5vw,18.75rem)
+    font-size:300px;
     
 
     @media (600px <= width) {
@@ -21,8 +21,8 @@ body{
    background-image: url(images/background.png) ;  
    background-position: center;
    background-size: cover;
-   max-width: 100%;
-   max-height: 300;
+   max-width:100%;
+   max-height:100%;
    background-repeat:no-repeat;
    background-color:rgb(167,150,207)
 
@@ -36,7 +36,7 @@ body{
     text-align:center;
     text-justify:center;
     font-weight: bold;
-    font-size:clamp(.625rem,.5vw,2.5rem)
+    font-size:clamp(.625rem,.5vw,16rem)
 
     @media (600px <= width) {
       flex-wrap: nowrap;
