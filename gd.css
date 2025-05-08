@@ -1,23 +1,7 @@
-html{background-color:rgb(187, 152, 233)}
-
-img{
-    max-width:fit-content;
-    max-height:fit-content;
-    object-position: center;
-    object-fit: cover;
-    width: 100%;
-    justify-content:center;
-    align-items: center;
-    margin:auto;
-    padding: 25px;
-    gap: 25px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    @media (600px <= width) {
-        flex-wrap: nowrap;
-    }
+html{
+    background-color:rgb(187, 152, 233);
 }
 
-
+.item .caption {
+    color: green;
+}

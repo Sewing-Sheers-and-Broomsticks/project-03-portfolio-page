@@ -29,7 +29,8 @@ img{
         width: 100%;
         justify-content:center;
         align-items: center;
-        margin:auto;
+        margin-top: 200px ;
+        margin-bottom: 200px;
         padding: 25px;
         gap: 25px;
         display: flex;
@@ -41,4 +42,4 @@ img{
         }
  
     }
-   
+    
