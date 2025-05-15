@@ -4,7 +4,7 @@ h1{
     color:rgb(48, 0, 95);
     text-align:center;
     text-justify: center;
-    font-size:300px;
+    font-size:clamp(100px,10vw,300px);
     flex-shrink: 1;
 
     
@@ -24,7 +24,8 @@ body {
    max-width:100%;
    max-height:100%;
    background-repeat:no-repeat;
-   background-color:rgb(167,150,207)
+   background-color:rgb(153, 153, 212)
+   background-blend-mode:screen(rgb(201, 175, 246));
 
    @media (600px <= width) {
       flex-wrap: nowrap;
@@ -36,7 +37,7 @@ body {
     text-align:center;
     text-justify:center;
     font-weight: bold;
-    font-size: 60px;
+    font-size:60px;
 
     @media (600px <= width) {
       flex-wrap: nowrap;
@@ -77,8 +78,6 @@ a:hover{
  /* These styles are for individual items on each gallery page */
  .item {
   margin: auto;
-  margin-top: 200px;
-  margin-bottom: 200px;
   justify-content:center;
   align-items: center;
   padding: 25px;
@@ -101,7 +100,8 @@ a:hover{
 }
 
 .item .caption {
-  margin: 0;
+  margin-top: 50px ;
+  margin-bottom: 200px;
   font-family:'Courier New', Courier, monospace;
   color: rgb(6, 44, 6);
   text-align:center;
